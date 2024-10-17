@@ -214,7 +214,7 @@ nav ul li
     font-size: 35px;
 }
 
-@media only screen and (max-width : 480px) 
+@media (max-width: 767px)
 {
     .boxpicture 
     {
@@ -228,7 +228,7 @@ nav ul li
         width:100% ; 
     }
 
-    img
+    .img-resize1 img ,.img-resize2 img ,.img-resize3 img ,.img-resize4 img
     {
         width: 100%;
         height: auto;
@@ -286,9 +286,34 @@ nav ul li
         width: 80%; 
         margin-bottom: 20px;
     }
-    
 
+    .img-resize1 img ,.img-resize2 img ,.img-resize3 img ,.img-resize4 img 
+    {
+        max-width: 100%;
+        height: auto;    
+    }
 
+    .media video 
+    {
+        width: 100%; 
+        height: auto;
+    }
 
+    .info 
+	{
+        width: 90%;         
+	    margin: auto;
+    }
 
+    .me 
+	{
+        width: 60%; 
+        margin: auto;
+    }
 }
+
+
+
+
+
+
