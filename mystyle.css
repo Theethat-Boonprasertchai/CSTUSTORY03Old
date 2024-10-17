@@ -152,11 +152,12 @@ header {
 .boxpicture 
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-    
+  
 }
 
 
@@ -211,4 +212,27 @@ nav ul li
     display: inline-block;
     margin: 0 40px;
     font-size: 35px;
+}
+
+@media (max-width:767px) 
+{
+    .boxpicture 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-box,.right-box
+    {
+        width:100% ; 
+    }
+
+    .img-resize1,.img-resize2,.img-resize3,.img-resize4
+    {
+        width: 100%;
+        height: auto;
+    }
+    
+
 }
