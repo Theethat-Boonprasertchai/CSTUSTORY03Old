@@ -214,7 +214,7 @@ nav ul li
     font-size: 35px;
 }
 
-@media (max-width:767px) 
+@media only screen and (max-width : 480px) 
 {
     .boxpicture 
     {
@@ -228,10 +228,36 @@ nav ul li
         width:100% ; 
     }
 
-    .img-resize1,.img-resize2,.img-resize3,.img-resize4
+    img
     {
         width: 100%;
         height: auto;
+    }
+    
+    .media
+    {
+        width: 100%;
+    }
+    
+    header 
+    {
+        font-size: 24px;
+    }
+    nav ul li 
+    {
+        font-size: 20px;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info2, .info3, .me 
+    {
+        width: 100%;
+        max-width: 900px;
     }
     
 
